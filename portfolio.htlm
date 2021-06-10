@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Xander</title>
+    <style type="text/css">
+            body {
+            background: violet; (252, 0, 218)
+            color: purple; (45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+             }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+    
+        /* navigation menu */
+        nav {
+            background: black; (239, 80, 41);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: purple;
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: purple;
+        }
+    
+        /* main container area beneath menu */
+        main {
+            background:white(245, 238, 219);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        #interests {
+            border: 4px black;
+            padding: 8px;
+        }
+        h2, h3 {
+            margin: 0px;
+        }
+        </style>
+    </head>
+
+    <body>
+      <div id="all-contents">
+      <nav>
+            <h1>Xander</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                  <a class="nav-a" href="index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                  <a class="nav-a" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <!-- Nav stuff here...-->
+        </nav> 
+        <main>
+            <div class="content">
+                <h1>Portfolio</h1>
+                <ul id="portfolio">
+                 <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+    <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+    <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+                </ul>
+            </div>
+        </main>
+      </div>
+    </body>
+</html>
